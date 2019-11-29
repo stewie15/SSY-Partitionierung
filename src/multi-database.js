@@ -8,7 +8,7 @@ for (let i of 'abcdefghijklmnopqrstuvwxyz') {
     let coll = db.addCollection(collectionName);
 
     // Beispiel-Einträge der Form: {"a17": "seventeen-a"}
-    coll.insert({key: i+"17", value: 'seventeen-'+i});
+        coll.insert({key: i+"17", value: 'seventeen-'+i});
     coll.insert({key: i+"21", value: 'twenty-one-'+i});
 }
 
